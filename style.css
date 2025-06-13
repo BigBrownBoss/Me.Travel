@@ -1,0 +1,53 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+header {
+  background: #5a2dfc;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+main {
+  padding: 1rem;
+}
+section {
+  margin-bottom: 2rem;
+}
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+a {
+  color: #5a2dfc;
+  text-decoration: none;
+}
+
+.insta-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.newsletter input {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+  width: 70%;
+}
+.newsletter button {
+  padding: 0.5rem 1rem;
+  background-color: #5a2dfc;
+  color: white;
+  border: none;
+}
+.blog-post-generator article {
+  background: #fff;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
