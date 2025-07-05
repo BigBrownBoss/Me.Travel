@@ -28,26 +28,3 @@ a {
   color: #5a2dfc;
   text-decoration: none;
 }
-
-.insta-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
-}
-.newsletter input {
-  padding: 0.5rem;
-  margin-right: 0.5rem;
-  width: 70%;
-}
-.newsletter button {
-  padding: 0.5rem 1rem;
-  background-color: #5a2dfc;
-  color: white;
-  border: none;
-}
-.blog-post-generator article {
-  background: #fff;
-  padding: 1rem;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-}
