@@ -8,6 +8,16 @@
   <link rel="manifest" href="manifest.json" />
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" href="https://i.imgur.com/gXbcxfJ.png" type="image/png">
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <script>
+    function validateCaptcha(event) {
+      var captchaResponse = grecaptcha.getResponse();
+      if (captchaResponse.length === 0) {
+        alert("Please complete the reCAPTCHA to submit the form.");
+        event.preventDefault();
+      }
+    }
+  </script>
 </head>
 <body>
   <header>
@@ -19,7 +29,6 @@
   <main>
     <section class="search-widget">
       <h2>Flight & Hotel Search</h2>
-      <!-- Replace this iframe with actual affiliate widget -->
       <iframe src="https://example.com/flight-widget" width="100%" height="300" title="Flight Widget"></iframe>
     </section>
 
@@ -39,6 +48,15 @@
         <li><a href="#">Secrets of Budget Hotel Booking</a></li>
         <li><a href="#">Top 5 Cheapest Travel Destinations</a></li>
       </ul>
+    </section>
+
+    <section class="newsletter">
+      <h2>📬 Join Our Newsletter</h2>
+      <form action="https://formsubmit.co/YOUR_EMAIL@example.com" method="POST" onsubmit="validateCaptcha(event)">
+        <input type="email" name="email" placeholder="Your email" required>
+        <div class="g-recaptcha" data-sitekey="6LdMFXgrAAAAALmGoo4SBr5QlharvevJPpByo9xj"></div><br>
+        <button type="submit">Subscribe</button>
+      </form>
     </section>
   </main>
 

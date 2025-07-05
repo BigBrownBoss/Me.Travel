@@ -28,3 +28,13 @@ a {
   color: #5a2dfc;
   text-decoration: none;
 }
+input, button {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: auto;
+}
