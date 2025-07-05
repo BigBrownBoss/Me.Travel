@@ -1,5 +1,5 @@
 
-# Me.Travel - Travel PWA
+# Budget Jet Deals - Travel PWA
 
 This is a lightweight, mobile-first travel deals PWA ready for affiliate integration.
 
