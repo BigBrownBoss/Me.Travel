@@ -38,3 +38,9 @@ form {
   max-width: 300px;
   margin: auto;
 }
+.logo {
+  max-width: 160px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
