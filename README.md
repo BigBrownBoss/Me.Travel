@@ -1,20 +1,34 @@
+# Me.Travel 🌍✈️
 
-# Budget Jet Deals - Travel PWA
+**Me.Travel** is a fast, mobile-first Progressive Web App (PWA) for discovering last-minute flight deals and hotel discounts across the globe — built entirely on free tools and deployed via Netlify.
 
-This is a lightweight, mobile-first travel deals PWA ready for affiliate integration.
+## 🔗 Live Site
+[https://me-travelz.netlify.app](https://me-travelz.netlify.app)
 
-## 🚀 How to Deploy for Free
+Soon to be available at: `https://metravel.is-a.dev`
 
-1. Create a GitHub repo and upload all files.
-2. Go to [https://netlify.com](https://netlify.com) and connect your GitHub.
-3. Select the repo and deploy. Done!
+---
 
-## 🔗 Adding Your Affiliate Links
+## 🚀 Features
 
-Edit `index.html` and replace placeholder `<iframe>` and `<a href="#">` tags with your real affiliate URLs.
+- ⚡ Fully offline-capable PWA (with install prompt)
+- 📬 Email subscription form with Google reCAPTCHA
+- 🔒 Secure forms via FormSubmit
+- 📱 Optimized icons + manifest for iOS/Android install
+- 🌐 Netlify hosting with optional Cloudflare DNS/SSL
+- 💸 Travel affiliate-ready for commission-based monetization
 
-## Features
+---
 
-- Fast, mobile-friendly, installable as PWA
-- Offline support via service worker
-- Easily customizable design
+## 📂 Tech Stack
+
+- HTML5, CSS3
+- Google reCAPTCHA (Spam protection)
+- FormSubmit (email delivery)
+- Netlify (free hosting + CI/CD)
+- Cloudflare (DNS + HTTPS optional)
+- Open Affiliate Networks (Coming soon)
+
+---
+
+
